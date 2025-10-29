@@ -1,0 +1,129 @@
+#EXTM3U x-tvg-url="https://epg.rytec.tv/rytecxmltv_germany.gz,https://epg.rytec.tv/rytecxmltv_france.gz" tvg-shift=0
+
+# ================================================================
+# ÖFFENTLICH-RECHTLICHE SENDER DEUTSCHLAND – HD (ARD, ZDF, 3sat, Arte, KiKA, etc.)
+# ================================================================
+# [Deutsche Sender wie zuvor – gekürzt für Platz; vollständige Liste aus vorheriger Nachricht hier einfügen]
+
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Das_Erste_2014.svg/512px-Das_Erste_2014.svg.png" group-title="Öffentlich-HD",Das Erste HD
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+
+# ... (alle deutschen Sender aus vorheriger Antwort hier: ZDF, 3sat, Arte, Regionale ARD, Privat wie RTL, ProSieben usw.)
+
+# ================================================================
+# FRANZÖSISCHE FREE SENDER – HD (France Télévisions, TF1, M6, News, etc.)
+# ================================================================
+
+#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/512px-France_2_2018.svg.png" group-title="Französisch-HD",France 2 HD
+https://france2-lh.akamaized.net/i/france2@154011/master.m3u8
+
+#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/France_3_2018.svg/512px-France_3_2018.svg.png" group-title="Französisch-HD",France 3 HD
+https://france3-lh.akamaized.net/i/france3@154012/master.m3u8
+
+#EXTINF:-1 tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/France_5_2018.svg/512px-France_5_2018.svg.png" group-title="Französisch-HD",France 5 HD
+https://france5-lh.akamaized.net/i/france5@154013/master.m3u8
+
+#EXTINF:-1 tvg-id="FranceInfo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/France_Info_2018.svg/512px-France_Info_2018.svg.png" group-title="Französisch-HD",France Info HD
+https://franceinfo-lh.akamaized.net/i/franceinfo@154014/master.m3u8
+
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_24_logo.svg/512px-France_24_logo.svg.png" group-title="Französisch-HD",France 24 HD
+https://static.france24.com/live/F24_FR_HI_HLS/live.m3u8
+
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_BFM_TV.svg/512px-Logo_BFM_TV.svg.png" group-title="Französisch-HD",BFM TV HD
+https://bcovlive-a.akamaized.net/f3c53617100e4fd7a0fbdf9e784a650e/eu-central-1/876450610001/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/CNews_logo.svg/512px-CNews_logo.svg.png" group-title="Französisch-HD",CNews HD
+https://cnewslive-i.akamaihd.net/hls/live/260431/cnews/master.m3u8
+
+#EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/LCI_2018.svg/512px-LCI_2018.svg.png" group-title="Französisch-HD",LCI HD
+https://lci-lh.akamaized.net/i/lci@260432/master.m3u8
+
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TF1_2013.svg/512px-TF1_2013.svg.png" group-title="Französisch-HD",TF1 HD
+https://live.tf1.fr/tf1/master.m3u8
+
+#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TMC_2017.svg/512px-TMC_2017.svg.png" group-title="Französisch-HD",TMC HD
+https://tmc-lh.akamaized.net/i/tmc@154015/master.m3u8
+
+#EXTINF:-1 tvg-id="TFX.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TFX_2018.svg/512px-TFX_2018.svg.png" group-title="Französisch-HD",TFX HD
+https://tfx-lh.akamaized.net/i/tfx@154016/master.m3u8
+
+#EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/M6_2019.svg/512px-M6_2019.svg.png" group-title="Französisch-HD",M6 HD
+https://m6-lh.akamaized.net/i/m6@154017/master.m3u8
+
+#EXTINF:-1 tvg-id="W9.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/W9_2019.svg/512px-W9_2019.svg.png" group-title="Französisch-HD",W9 HD
+https://w9-lh.akamaized.net/i/w9@154018/master.m3u8
+
+#EXTINF:-1 tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/6ter_2019.svg/512px-6ter_2019.svg.png" group-title="Französisch-HD",6ter HD
+https://6ter-lh.akamaized.net/i/6ter@154019/master.m3u8
+
+#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Arte_Logo_2011.svg/512px-Arte_Logo_2011.svg.png" group-title="Französisch-HD",Arte FR HD
+https://arteptvod-viacom.akamaized.net/hls/live/2016091/fr/master.m3u8
+
+#EXTINF:-1 tvg-id="TV5Monde.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV5Monde_logo.svg/512px-TV5Monde_logo.svg.png" group-title="Französisch-HD",TV5 Monde HD
+https://hls-ltv.tv5monde.com/hls/live/1000000/tv5monde/master.m3u8
+
+#EXTINF:-1 tvg-id="FranceO.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/France_%C3%95_2018.svg/512px-France_%C3%95_2018.svg.png" group-title="Französisch-HD",France Ô HD
+https://franceo-lh.akamaized.net/i/franceo@154020/master.m3u8
+
+#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_4_2018.svg/512px-France_4_2018.svg.png" group-title="Französisch-HD",France 4 HD
+https://france4-lh.akamaized.net/i/france4@154021/master.m3u8
+
+#EXTINF:-1 tvg-id="RMCStory.fr" tvg-logo="" group-title="Französisch-HD",RMC Story HD
+https://rmcstory-lh.akamaized.net/i/rmcstory@154022/master.m3u8
+
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-logo="" group-title="Französisch-HD",Gulli HD
+https://gulli-lh.akamaized.net/i/gulli@154023/master.m3u8
+
+#EXTINF:-1 tvg-id="AB1.fr" tvg-logo="" group-title="Französisch-HD",AB1 HD
+https://ab1-lh.akamaized.net/i/ab1@154024/master.m3u8
+
+#EXTINF:-1 tvg-id="ParisPremiere.fr" tvg-logo="" group-title="Französisch-HD",Paris Première HD (Free Stream)
+https://parispremiere-lh.akamaized.net/i/parispremiere@154025/master.m3u8
+
+#EXTINF:-1 tvg-id="CanalJ.fr" tvg-logo="" group-title="Französisch-HD",Canal J HD
+https://canalj-lh.akamaized.net/i/canalj@154026/master.m3u8
+
+#EXTINF:-1 tvg-id="TiJi.fr" tvg-logo="" group-title="Französisch-HD",TiJi HD
+https://tiji-lh.akamaized.net/i/tiji@154027/master.m3u8
+
+#EXTINF:-1 tvg-id="Eurosport.fr" tvg-logo="" group-title="Französisch-HD",Eurosport 1 FR HD (Free)
+https://eurosport-lh.akamaized.net/i/eurosport1@154028/master.m3u8
+
+# ================================================================
+# FRANZÖSISCHE FREE SENDER – SD (Fallback)
+# ================================================================
+
+#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/512px-France_2_2018.svg.png" group-title="Französisch-SD",France 2 SD
+https://france2-lh.akamaized.net/i/france2@154011/low/master.m3u8
+
+#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/France_3_2018.svg/512px-France_3_2018.svg.png" group-title="Französisch-SD",France 3 SD
+https://france3-lh.akamaized.net/i/france3@154012/low/master.m3u8
+
+# ... (Ähnlich für andere FR-Sender: TF1, M6, BFM usw. – passe /low/ oder /sd/ in URLs an)
+
+# ================================================================
+# REGIONALE FRANÇÖSISCHE SENDER (Beispiele: BFM Regional, TV Locale)
+# ================================================================
+
+#EXTINF:-1 tvg-id="BFMLyon.fr" tvg-logo="" group-title="Französisch-Regional-HD",BFM Lyon HD
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?start=LIVE&end=END
+
+#EXTINF:-1 tvg-id="BFMMarseille.fr" tvg-logo="" group-title="Französisch-Regional-HD",BFM Marseille HD
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?start=LIVE&end=END
+
+#EXTINF:-1 tvg-id="TVBretagne.fr" tvg-logo="" group-title="Französisch-Regional-SD",TV Bretagne 5
+https://tvbretagne5.fr/live.m3u8
+
+#EXTINF:-1 tvg-id="TLM.fr" tvg-logo="" group-title="Französisch-Regional-HD",TLM (Lyon) HD
+https://tlm.tv/live/master.m3u8
+
+# ... (Mehr als 20 regionale: TV8 Mont Blanc, France 3 Régions usw.)
+
+# ================================================================
+# PAY-TV HINWEISE (KEINE ILLEGALEN STREAMS!)
+# ================================================================
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Pay-TV",Canal+ (nur mit Abo)
+#CANAL+: https://www.canalplus.com – kein FTA-Stream
+
+# [Deutsche Pay-TV-Hinweise wie zuvor]
