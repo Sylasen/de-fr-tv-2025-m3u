@@ -1,129 +1,189 @@
 #EXTM3U x-tvg-url="https://epg.rytec.tv/rytecxmltv_germany.gz,https://epg.rytec.tv/rytecxmltv_france.gz" tvg-shift=0
 
 # ================================================================
-# ÖFFENTLICH-RECHTLICHE SENDER DEUTSCHLAND – HD (ARD, ZDF, 3sat, Arte, KiKA, etc.)
+# DEUTSCHLAND – ÖFFENTLICH-RECHTLICH HD
 # ================================================================
-# [Deutsche Sender wie zuvor – gekürzt für Platz; vollständige Liste aus vorheriger Nachricht hier einfügen]
-
-#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Das_Erste_2014.svg/512px-Das_Erste_2014.svg.png" group-title="Öffentlich-HD",Das Erste HD
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Das_Erste_2014.svg/256px-Das_Erste_2014.svg.png" group-title="DE Öffentlich HD",Das Erste HD
 https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-
-# ... (alle deutschen Sender aus vorheriger Antwort hier: ZDF, 3sat, Arte, Regionale ARD, Privat wie RTL, ProSieben usw.)
+#EXTINF:-1 tvg-id="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/ZDF_Logo_2024.svg/256px-ZDF_Logo_2024.svg.png" group-title="DE Öffentlich HD",ZDF HD
+https://zdf-hls-18.akamaized.net/hls/live/2016501/deutschland/high/master.m3u8
+#EXTINF:-1 tvg-id="ZDFneo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/ZDFneo_2017.svg/256px-ZDFneo_2017.svg.png" group-title="DE Öffentlich HD",ZDFneo HD
+https://zdf-hls-18.akamaized.net/hls/live/2016501/deutschland/neo/high/master.m3u8
+#EXTINF:-1 tvg-id="ZDFinfo.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/ZDFinfo_2017.svg/256px-ZDFinfo_2017.svg.png" group-title="DE Öffentlich HD",ZDFinfo HD
+https://zdf-hls-18.akamaized.net/hls/live/2016501/deutschland/info/high/master.m3u8
+#EXTINF:-1 tvg-id="3sat.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/3sat_2019.svg/256px-3sat_2019.svg.png" group-title="DE Öffentlich HD",3sat HD
+https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8
+#EXTINF:-1 tvg-id="Arte.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Arte_Logo_2011.svg/256px-Arte_Logo_2011.svg.png" group-title="DE Öffentlich HD",Arte DE HD
+https://arteptvod-viacom.akamaized.net/hls/live/2016091/de/master.m3u8
+#EXTINF:-1 tvg-id="One.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/One_Logo_2018.svg/256px-One_Logo_2018.svg.png" group-title="DE Öffentlich HD",One HD
+https://one-live.akamaized.net/hls/live/2016501/one/master.m3u8
+#EXTINF:-1 tvg-id="Phoenix.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Phoenix_Logo_2018.svg/256px-Phoenix_Logo_2018.svg.png" group-title="DE Öffentlich HD",Phoenix HD
+https://phoenix-live.akamaized.net/hls/live/2016501/phoenix/master.m3u8
+#EXTINF:-1 tvg-id="KiKA.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/KiKA_Logo_2012.svg/256px-KiKA_Logo_2012.svg.png" group-title="DE Öffentlich HD",KiKA HD
+https://kika-live.akamaized.net/hls/live/2016501/kika/master.m3u8
+#EXTINF:-1 tvg-id="Tagesschau24.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tagesschau24_Logo.svg/256px-Tagesschau24_Logo.svg.png" group-title="DE Öffentlich HD",tagesschau24 HD
+https://tagesschau-live.akamaized.net/hls/live/2016501/tagesschau24/master.m3u8
 
 # ================================================================
-# FRANZÖSISCHE FREE SENDER – HD (France Télévisions, TF1, M6, News, etc.)
+# DEUTSCHLAND – ÖFFENTLICH-RECHTLICH SD (Fallback)
 # ================================================================
+#EXTINF:-1 tvg-id="DasErste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Das_Erste_2014.svg/256px-Das_Erste_2014.svg.png" group-title="DE Öffentlich SD",Das Erste SD
+https://daserste-live.ard-mcdn.de/daserste/live/hls/de/low/master.m3u8
+#EXTINF:-1 tvg-id="ZDF.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/ZDF_Logo_2024.svg/256px-ZDF_Logo_2024.svg.png" group-title="DE Öffentlich SD",ZDF SD
+https://zdf-hls-18.akamaized.net/hls/live/2016501/deutschland/low/master.m3u8
 
-#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/512px-France_2_2018.svg.png" group-title="Französisch-HD",France 2 HD
+# ================================================================
+# DEUTSCHLAND – REGIONALE SENDER (ARD) HD
+# ================================================================
+#EXTINF:-1 tvg-id="BR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/BR_Logo_2016.svg/256px-BR_Logo_2016.svg.png" group-title="DE Regional HD",BR Fernsehen Süd HD
+https://brlive-lh.akamaized.net/i/brlive@66405/master.m3u8
+#EXTINF:-1 tvg-id="HR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Hr-fernsehen_2014.svg/256px-Hr-fernsehen_2014.svg.png" group-title="DE Regional HD",hr-fernsehen HD
+https://hr-live.akamaized.net/hls/live/2016501/hr/master.m3u8
+#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/MDR_Fernsehen_Logo_2022.svg/256px-MDR_Fernsehen_Logo_2022.svg.png" group-title="DE Regional HD",MDR Sachsen HD
+https://mdr-sachsen-live.hls.adaptive.level3.net/mdr-sachsen/live/master.m3u8
+#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/MDR_Fernsehen_Logo_2022.svg/256px-MDR_Fernsehen_Logo_2022.svg.png" group-title="DE Regional HD",MDR Sachsen-Anhalt HD
+https://mdr-sachsenanhalt-live.hls.adaptive.level3.net/mdr-sachsenanhalt/live/master.m3u8
+#EXTINF:-1 tvg-id="MDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/MDR_Fernsehen_Logo_2022.svg/256px-MDR_Fernsehen_Logo_2022.svg.png" group-title="DE Regional HD",MDR Thüringen HD
+https://mdr-thueringen-live.hls.adaptive.level3.net/mdr-thueringen/live/master.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NDR_Fernsehen_Logo_2021.svg/256px-NDR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",NDR Hamburg HD
+https://ndr-hh-live.hls.adaptive.level3.net/ndr/hh/live/master.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NDR_Fernsehen_Logo_2021.svg/256px-NDR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",NDR Niedersachsen HD
+https://ndr-nds-live.hls.adaptive.level3.net/ndr/nds/live/master.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NDR_Fernsehen_Logo_2021.svg/256px-NDR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",NDR Mecklenburg-Vorpommern HD
+https://ndr-mv-live.hls.adaptive.level3.net/ndr/mv/live/master.m3u8
+#EXTINF:-1 tvg-id="NDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NDR_Fernsehen_Logo_2021.svg/256px-NDR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",NDR Schleswig-Holstein HD
+https://ndr-sh-live.hls.adaptive.level3.net/ndr/sh/live/master.m3u8
+#EXTINF:-1 tvg-id="RBB.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rbb_fernsehen_2017.svg/256px-Rbb_fernsehen_2017.svg.png" group-title="DE Regional HD",rbb Berlin HD
+https://rbb-berlin-live.hls.adaptive.level3.net/rbb/berlin/live/master.m3u8
+#EXTINF:-1 tvg-id="RBB.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rbb_fernsehen_2017.svg/256px-Rbb_fernsehen_2017.svg.png" group-title="DE Regional HD",rbb Brandenburg HD
+https://rbb-brandenburg-live.hls.adaptive.level3.net/rbb/brandenburg/live/master.m3u8
+#EXTINF:-1 tvg-id="SR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SR_Fernsehen_Logo_2021.svg/256px-SR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",SR Fernsehen HD
+https://sr-live.hls.adaptive.level3.net/sr/live/master.m3u8
+#EXTINF:-1 tvg-id="SWR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SWR_Fernsehen_2021.svg/256px-SWR_Fernsehen_2021.svg.png" group-title="DE Regional HD",SWR Baden-Württemberg HD
+https://swrbw-live.hls.adaptive.level3.net/swrbw/live/master.m3u8
+#EXTINF:-1 tvg-id="SWR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SWR_Fernsehen_2021.svg/256px-SWR_Fernsehen_2021.svg.png" group-title="DE Regional HD",SWR Rheinland-Pfalz HD
+https://swrrp-live.hls.adaptive.level3.net/swrrp/live/master.m3u8
+#EXTINF:-1 tvg-id="WDR.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/WDR_Fernsehen_Logo_2021.svg/256px-WDR_Fernsehen_Logo_2021.svg.png" group-title="DE Regional HD",WDR Köln HD
+https://wdr-koeln-live.hls.adaptive.level3.net/wdr/koeln/live/master.m3u8
+
+# ================================================================
+# DEUTSCHLAND – LOKALSENDER (Beispiele)
+# ================================================================
+#EXTINF:-1 tvg-id="TVBerlin.de" tvg-logo="" group-title="DE Regional SD",TV Berlin
+https://live2.telvi.de/hls/tvberlin.m3u8
+#EXTINF:-1 tvg-id="MuenchenTV.de" tvg-logo="" group-title="DE Regional HD",München TV HD
+https://muenchentv-live.hls.adaptive.level3.net/muenchentv/live/master.m3u8
+#EXTINF:-1 tvg-id="RegioTV.de" tvg-logo="" group-title="DE Regional HD",Regio TV Stuttgart HD
+https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="Hamburg1.de" tvg-logo="" group-title="DE Regional HD",Hamburg 1 HD
+https://hamburg1-live.hls.adaptive.level3.net/hamburg1/live/master.m3u8
+
+# ================================================================
+# DEUTSCHLAND – PRIVATSENDER HD
+# ================================================================
+#EXTINF:-1 tvg-id="RTL.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/RTL_Logo_2021.svg/256px-RTL_Logo_2021.svg.png" group-title="DE Privat HD",RTL HD
+https://rtl-ott.akamaized.net/hls/live/2011091/rtl/master.m3u8
+#EXTINF:-1 tvg-id="RTLZwei.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RTL_II_Logo_2021.svg/256px-RTL_II_Logo_2021.svg.png" group-title="DE Privat HD",RTLZWEI HD
+https://rtl2-ott.akamaized.net/hls/live/2011091/rtl2/master.m3u8
+#EXTINF:-1 tvg-id="SuperRTL.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Super_RTL_Logo_2021.svg/256px-Super_RTL_Logo_2021.svg.png" group-title="DE Privat HD",Super RTL HD
+https://superrtl-ott.akamaized.net/hls/live/2011091/superrtl/master.m3u8
+#EXTINF:-1 tvg-id="VOX.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/VOX_Logo_2021.svg/256px-VOX_Logo_2021.svg.png" group-title="DE Privat HD",VOX HD
+https://voxlive.akamaized.net/hls/live/2000034/vox/master.m3u8
+#EXTINF:-1 tvg-id="ProSieben.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/ProSieben_Logo_2021.svg/256px-ProSieben_Logo_2021.svg.png" group-title="DE Privat HD",ProSieben HD
+https://prosiebenlive.akamaized.net/hls/live/2000034/prosieben/master.m3u8
+#EXTINF:-1 tvg-id="Sat1.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Sat.1_Logo_2021.svg/256px-Sat.1_Logo_2021.svg.png" group-title="DE Privat HD",Sat.1 HD
+https://sat1live.akamaized.net/hls/live/2000034/sat1/master.m3u8
+#EXTINF:-1 tvg-id="KabelEins.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kabel_eins_Logo_2021.svg/256px-Kabel_eins_Logo_2021.svg.png" group-title="DE Privat HD",kabel eins HD
+https://kabel1live.akamaized.net/hls/live/2000034/kabel1/master.m3u8
+#EXTINF:-1 tvg-id="Sixx.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sixx_Logo_2019.svg/256px-Sixx_Logo_2019.svg.png" group-title="DE Privat HD",sixx HD
+https://sixxlive.akamaized.net/hls/live/2000034/sixx/master.m3u8
+#EXTINF:-1 tvg-id="ProSiebenMaxx.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ProSieben_MAXX_Logo_2021.svg/256px-ProSieben_MAXX_Logo_2021.svg.png" group-title="DE Privat HD",ProSieben MAXX HD
+https://prosiebenmaxxlive.akamaized.net/hls/live/2000034/prosiebenmaxx/master.m3u8
+#EXTINF:-1 tvg-id="Sat1Gold.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Sat.1_Gold_Logo_2021.svg/256px-Sat.1_Gold_Logo_2021.svg.png" group-title="DE Privat HD",Sat.1 Gold HD
+https://sat1goldlive.akamaized.net/hls/live/2000034/sat1gold/master.m3u8
+#EXTINF:-1 tvg-id="DMAX.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/DMAX_Logo_2016.svg/256px-DMAX_Logo_2016.svg.png" group-title="DE Privat HD",DMAX HD
+https://dmax-de.akamaized.net/hls/live/2016501/dmax/master.m3u8
+#EXTINF:-1 tvg-id="TLC.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/TLC_Logo_2016.svg/256px-TLC_Logo_2016.svg.png" group-title="DE Privat HD",TLC HD
+https://tlc-de.akamaized.net/hls/live/2016501/tlc/master.m3u8
+#EXTINF:-1 tvg-id="Nitro.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nitro_Logo_2017.svg/256px-Nitro_Logo_2017.svg.png" group-title="DE Privat HD",Nitro HD
+https://nitrolive.akamaized.net/hls/live/2000034/nitro/master.m3u8
+#EXTINF:-1 tvg-id="ServusTV.de" tvg-logo="" group-title="DE Privat HD",ServusTV Deutschland HD
+https://servustv-de.akamaized.net/hls/live/2016501/servustvde/master.m3u8
+#EXTINF:-1 tvg-id="Welt.de" tvg-logo="" group-title="DE Privat HD",WELT HD
+https://welt-live.akamaized.net/hls/live/2016501/welt/master.m3u8
+#EXTINF:-1 tvg-id="N24Doku.de" tvg-logo="" group-title="DE Privat HD",N24 Doku HD
+https://n24doku-live.akamaized.net/hls/live/2016501/n24doku/master.m3u8
+
+# ================================================================
+# FRANKREICH – ÖFFENTLICH-RECHTLICH HD
+# ================================================================
+#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/256px-France_2_2018.svg.png" group-title="FR Öffentlich HD",France 2 HD
 https://france2-lh.akamaized.net/i/france2@154011/master.m3u8
-
-#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/France_3_2018.svg/512px-France_3_2018.svg.png" group-title="Französisch-HD",France 3 HD
+#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/France_3_2018.svg/256px-France_3_2018.svg.png" group-title="FR Öffentlich HD",France 3 HD
 https://france3-lh.akamaized.net/i/france3@154012/master.m3u8
-
-#EXTINF:-1 tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/France_5_2018.svg/512px-France_5_2018.svg.png" group-title="Französisch-HD",France 5 HD
+#EXTINF:-1 tvg-id="France5.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/France_5_2018.svg/256px-France_5_2018.svg.png" group-title="FR Öffentlich HD",France 5 HD
 https://france5-lh.akamaized.net/i/france5@154013/master.m3u8
-
-#EXTINF:-1 tvg-id="FranceInfo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/France_Info_2018.svg/512px-France_Info_2018.svg.png" group-title="Französisch-HD",France Info HD
+#EXTINF:-1 tvg-id="FranceInfo.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/France_Info_2018.svg/256px-France_Info_2018.svg.png" group-title="FR Öffentlich HD",France Info HD
 https://franceinfo-lh.akamaized.net/i/franceinfo@154014/master.m3u8
-
-#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_24_logo.svg/512px-France_24_logo.svg.png" group-title="Französisch-HD",France 24 HD
+#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Arte_Logo_2011.svg/256px-Arte_Logo_2011.svg.png" group-title="FR Öffentlich HD",Arte FR HD
+https://arteptvod-viacom.akamaized.net/hls/live/2016091/fr/master.m3u8
+#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_4_2018.svg/256px-France_4_2018.svg.png" group-title="FR Öffentlich HD",France 4 HD
+https://france4-lh.akamaized.net/i/france4@154021/master.m3u8
+#EXTINF:-1 tvg-id="FranceO.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/France_%C3%95_2018.svg/256px-France_%C3%95_2018.svg.png" group-title="FR Öffentlich HD",France Ô HD
+https://franceo-lh.akamaized.net/i/franceo@154020/master.m3u8
+#EXTINF:-1 tvg-id="TV5Monde.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV5Monde_logo.svg/256px-TV5Monde_logo.svg.png" group-title="FR Öffentlich HD",TV5 Monde HD
+https://hls-ltv.tv5monde.com/hls/live/1000000/tv5monde/master.m3u8
+#EXTINF:-1 tvg-id="France24.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_24_logo.svg/256px-France_24_logo.svg.png" group-title="FR Öffentlich HD",France 24 HD
 https://static.france24.com/live/F24_FR_HI_HLS/live.m3u8
 
-#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_BFM_TV.svg/512px-Logo_BFM_TV.svg.png" group-title="Französisch-HD",BFM TV HD
-https://bcovlive-a.akamaized.net/f3c53617100e4fd7a0fbdf9e784a650e/eu-central-1/876450610001/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/CNews_logo.svg/512px-CNews_logo.svg.png" group-title="Französisch-HD",CNews HD
-https://cnewslive-i.akamaihd.net/hls/live/260431/cnews/master.m3u8
-
-#EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/LCI_2018.svg/512px-LCI_2018.svg.png" group-title="Französisch-HD",LCI HD
-https://lci-lh.akamaized.net/i/lci@260432/master.m3u8
-
-#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TF1_2013.svg/512px-TF1_2013.svg.png" group-title="Französisch-HD",TF1 HD
+# ================================================================
+# FRANKREICH – PRIVATSENDER HD
+# ================================================================
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TF1_2013.svg/256px-TF1_2013.svg.png" group-title="FR Privat HD",TF1 HD
 https://live.tf1.fr/tf1/master.m3u8
-
-#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TMC_2017.svg/512px-TMC_2017.svg.png" group-title="Französisch-HD",TMC HD
-https://tmc-lh.akamaized.net/i/tmc@154015/master.m3u8
-
-#EXTINF:-1 tvg-id="TFX.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TFX_2018.svg/512px-TFX_2018.svg.png" group-title="Französisch-HD",TFX HD
-https://tfx-lh.akamaized.net/i/tfx@154016/master.m3u8
-
-#EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/M6_2019.svg/512px-M6_2019.svg.png" group-title="Französisch-HD",M6 HD
+#EXTINF:-1 tvg-id="M6.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/M6_2019.svg/256px-M6_2019.svg.png" group-title="FR Privat HD",M6 HD
 https://m6-lh.akamaized.net/i/m6@154017/master.m3u8
-
-#EXTINF:-1 tvg-id="W9.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/W9_2019.svg/512px-W9_2019.svg.png" group-title="Französisch-HD",W9 HD
+#EXTINF:-1 tvg-id="TMC.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TMC_2017.svg/256px-TMC_2017.svg.png" group-title="FR Privat HD",TMC HD
+https://tmc-lh.akamaized.net/i/tmc@154015/master.m3u8
+#EXTINF:-1 tvg-id="W9.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/W9_2019.svg/256px-W9_2019.svg.png" group-title="FR Privat HD",W9 HD
 https://w9-lh.akamaized.net/i/w9@154018/master.m3u8
-
-#EXTINF:-1 tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/6ter_2019.svg/512px-6ter_2019.svg.png" group-title="Französisch-HD",6ter HD
+#EXTINF:-1 tvg-id="6ter.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/6ter_2019.svg/256px-6ter_2019.svg.png" group-title="FR Privat HD",6ter HD
 https://6ter-lh.akamaized.net/i/6ter@154019/master.m3u8
-
-#EXTINF:-1 tvg-id="Arte.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Arte_Logo_2011.svg/512px-Arte_Logo_2011.svg.png" group-title="Französisch-HD",Arte FR HD
-https://arteptvod-viacom.akamaized.net/hls/live/2016091/fr/master.m3u8
-
-#EXTINF:-1 tvg-id="TV5Monde.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TV5Monde_logo.svg/512px-TV5Monde_logo.svg.png" group-title="Französisch-HD",TV5 Monde HD
-https://hls-ltv.tv5monde.com/hls/live/1000000/tv5monde/master.m3u8
-
-#EXTINF:-1 tvg-id="FranceO.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/France_%C3%95_2018.svg/512px-France_%C3%95_2018.svg.png" group-title="Französisch-HD",France Ô HD
-https://franceo-lh.akamaized.net/i/franceo@154020/master.m3u8
-
-#EXTINF:-1 tvg-id="France4.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/France_4_2018.svg/512px-France_4_2018.svg.png" group-title="Französisch-HD",France 4 HD
-https://france4-lh.akamaized.net/i/france4@154021/master.m3u8
-
-#EXTINF:-1 tvg-id="RMCStory.fr" tvg-logo="" group-title="Französisch-HD",RMC Story HD
+#EXTINF:-1 tvg-id="TFX.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/TFX_2018.svg/256px-TFX_2018.svg.png" group-title="FR Privat HD",TFX HD
+https://tfx-lh.akamaized.net/i/tfx@154016/master.m3u8
+#EXTINF:-1 tvg-id="BFMTV.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_BFM_TV.svg/256px-Logo_BFM_TV.svg.png" group-title="FR News HD",BFM TV HD
+https://bcovlive-a.akamaized.net/f3c53617100e4fd7a0fbdf9e784a650e/eu-central-1/876450610001/playlist.m3u8
+#EXTINF:-1 tvg-id="CNews.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/CNews_logo.svg/256px-CNews_logo.svg.png" group-title="FR News HD",CNews HD
+https://cnewslive-i.akamaihd.net/hls/live/260431/cnews/master.m3u8
+#EXTINF:-1 tvg-id="LCI.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/LCI_2018.svg/256px-LCI_2018.svg.png" group-title="FR News HD",LCI HD
+https://lci-lh.akamaized.net/i/lci@260432/master.m3u8
+#EXTINF:-1 tvg-id="RMCStory.fr" tvg-logo="" group-title="FR Privat HD",RMC Story HD
 https://rmcstory-lh.akamaized.net/i/rmcstory@154022/master.m3u8
-
-#EXTINF:-1 tvg-id="Gulli.fr" tvg-logo="" group-title="Französisch-HD",Gulli HD
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-logo="" group-title="FR Kinder HD",Gulli HD
 https://gulli-lh.akamaized.net/i/gulli@154023/master.m3u8
 
-#EXTINF:-1 tvg-id="AB1.fr" tvg-logo="" group-title="Französisch-HD",AB1 HD
-https://ab1-lh.akamaized.net/i/ab1@154024/master.m3u8
-
-#EXTINF:-1 tvg-id="ParisPremiere.fr" tvg-logo="" group-title="Französisch-HD",Paris Première HD (Free Stream)
-https://parispremiere-lh.akamaized.net/i/parispremiere@154025/master.m3u8
-
-#EXTINF:-1 tvg-id="CanalJ.fr" tvg-logo="" group-title="Französisch-HD",Canal J HD
-https://canalj-lh.akamaized.net/i/canalj@154026/master.m3u8
-
-#EXTINF:-1 tvg-id="TiJi.fr" tvg-logo="" group-title="Französisch-HD",TiJi HD
-https://tiji-lh.akamaized.net/i/tiji@154027/master.m3u8
-
-#EXTINF:-1 tvg-id="Eurosport.fr" tvg-logo="" group-title="Französisch-HD",Eurosport 1 FR HD (Free)
-https://eurosport-lh.akamaized.net/i/eurosport1@154028/master.m3u8
-
 # ================================================================
-# FRANZÖSISCHE FREE SENDER – SD (Fallback)
+# FRANKREICH – REGIONALE SENDER (Beispiele)
 # ================================================================
-
-#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/512px-France_2_2018.svg.png" group-title="Französisch-SD",France 2 SD
-https://france2-lh.akamaized.net/i/france2@154011/low/master.m3u8
-
-#EXTINF:-1 tvg-id="France3.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/France_3_2018.svg/512px-France_3_2018.svg.png" group-title="Französisch-SD",France 3 SD
-https://france3-lh.akamaized.net/i/france3@154012/low/master.m3u8
-
-# ... (Ähnlich für andere FR-Sender: TF1, M6, BFM usw. – passe /low/ oder /sd/ in URLs an)
-
-# ================================================================
-# REGIONALE FRANÇÖSISCHE SENDER (Beispiele: BFM Regional, TV Locale)
-# ================================================================
-
-#EXTINF:-1 tvg-id="BFMLyon.fr" tvg-logo="" group-title="Französisch-Regional-HD",BFM Lyon HD
+#EXTINF:-1 tvg-id="BFMLyon.fr" tvg-logo="" group-title="FR Regional HD",BFM Lyon HD
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?start=LIVE&end=END
-
-#EXTINF:-1 tvg-id="BFMMarseille.fr" tvg-logo="" group-title="Französisch-Regional-HD",BFM Marseille HD
+#EXTINF:-1 tvg-id="BFMMarseille.fr" tvg-logo="" group-title="FR Regional HD",BFM Marseille HD
 https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?start=LIVE&end=END
-
-#EXTINF:-1 tvg-id="TVBretagne.fr" tvg-logo="" group-title="Französisch-Regional-SD",TV Bretagne 5
-https://tvbretagne5.fr/live.m3u8
-
-#EXTINF:-1 tvg-id="TLM.fr" tvg-logo="" group-title="Französisch-Regional-HD",TLM (Lyon) HD
+#EXTINF:-1 tvg-id="TLM.fr" tvg-logo="" group-title="FR Regional HD",TLM Lyon HD
 https://tlm.tv/live/master.m3u8
 
-# ... (Mehr als 20 regionale: TV8 Mont Blanc, France 3 Régions usw.)
+# ================================================================
+# SD FALLBACK (Beispiele)
+# ================================================================
+#EXTINF:-1 tvg-id="France2.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/France_2_2018.svg/256px-France_2_2018.svg.png" group-title="FR Öffentlich SD",France 2 SD
+https://france2-lh.akamaized.net/i/france2@154011/index_1_av-b.m3u8?sd=10&rebase=on
+#EXTINF:-1 tvg-id="TF1.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TF1_2013.svg/256px-TF1_2013.svg.png" group-title="FR Privat SD",TF1 SD
+https://live.tf1.fr/tf1/index_1_av-b.m3u8?sd=10&rebase=on
 
 # ================================================================
 # PAY-TV HINWEISE (KEINE ILLEGALEN STREAMS!)
 # ================================================================
-
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Pay-TV",Sky Cinema (nur mit Abo)
+#SKY: https://www.sky.de – kein FTA-Stream
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Pay-TV",Canal+ (nur mit Abo)
 #CANAL+: https://www.canalplus.com – kein FTA-Stream
-
-# [Deutsche Pay-TV-Hinweise wie zuvor]
